@@ -1,0 +1,36 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://36bxth84i5pv"
+path.s3tc="res://.godot/imported/STG0100_O_01-ccb1491d56ad206887b3920bc7e79e27_s0100_nn037.png-a8d7d018e954bc188b4713f9358eaa54.s3tc.ctex"
+metadata={
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
+}
+generator_parameters={}
+
+[deps]
+
+source_file="res://Sample Stage/stg_0100/GEO/STG0100_O_01-ccb1491d56ad206887b3920bc7e79e27_s0100_nn037.png"
+dest_files=["res://.godot/imported/STG0100_O_01-ccb1491d56ad206887b3920bc7e79e27_s0100_nn037.png-a8d7d018e954bc188b4713f9358eaa54.s3tc.ctex"]
+
+[params]
+
+compress/mode=2
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=true
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=0
