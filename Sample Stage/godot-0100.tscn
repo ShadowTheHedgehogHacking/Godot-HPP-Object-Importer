@@ -1,11 +1,11 @@
-[gd_scene load_steps=36 format=3 uid="uid://c844pkx71mn1i"]
+[gd_scene load_steps=38 format=3 uid="uid://c844pkx71mn1i"]
 
 [ext_resource type="Environment" uid="uid://3dhojwan21fh" path="res://Skybox/world_environment.tres" id="1_326yb"]
-[ext_resource type="Script" path="res://Scripts/CameraController.cs" id="1_c4pcc"]
-[ext_resource type="PackedScene" uid="uid://bvtb08n4eviro" path="res://Sample Stage/stg_0100/GEO/STG0100_D_18.fbx" id="1_mfoi7"]
-[ext_resource type="PackedScene" uid="uid://d2dfjvu2qvrdr" path="res://Sample Stage/stg_0100/GEO/STG0100_D_19.fbx" id="2_2132d"]
-[ext_resource type="PackedScene" uid="uid://p20r2kgvbx4c" path="res://Sample Stage/stg_0100/GEO/STG0100_D_20.fbx" id="3_1d3dy"]
-[ext_resource type="PackedScene" uid="uid://c1kh2f21li3uf" path="res://Sample Stage/stg_0100/GEO/STG0100_G_01.fbx" id="4_pwxp3"]
+[ext_resource type="PackedScene" uid="uid://bvtb08n4eviro" path="res://Sample Stage/stg_0100/GEO/STG0100_D_19.fbx" id="1_mfoi7"]
+[ext_resource type="Script" path="res://Scripts/FirstPersonStyleCameraController.gd" id="1_tivej"]
+[ext_resource type="PackedScene" uid="uid://d2dfjvu2qvrdr" path="res://Sample Stage/stg_0100/GEO/STG0100_D_20.fbx" id="2_2132d"]
+[ext_resource type="PackedScene" uid="uid://p20r2kgvbx4c" path="res://Sample Stage/stg_0100/GEO/STG0100_G_01.fbx" id="3_1d3dy"]
+[ext_resource type="PackedScene" uid="uid://c1kh2f21li3uf" path="res://Sample Stage/stg_0100/GEO/STG0100_G_18.fbx" id="4_pwxp3"]
 [ext_resource type="PackedScene" uid="uid://dsfbfuig128ap" path="res://Sample Stage/stg_0100/GEO/STG0100_D_23.fbx" id="5_6g5eq"]
 [ext_resource type="PackedScene" uid="uid://bmagt2mns665k" path="res://Sample Stage/stg_0100/GEO/STG0100_G_20.fbx" id="10_iecrs"]
 [ext_resource type="PackedScene" uid="uid://ogeg25u7y2vx" path="res://Sample Stage/stg_0100/GEO/STG0100_G_23.fbx" id="11_4sq6e"]
@@ -14,12 +14,14 @@
 [ext_resource type="PackedScene" uid="uid://cwaamg0nnpdha" path="res://Sample Stage/stg_0100/GEO/STG0100_OS_03.fbx" id="14_emigl"]
 [ext_resource type="PackedScene" uid="uid://bq7p6ssx2ttay" path="res://Sample Stage/stg_0100/GEO/STG0100_OS_04.fbx" id="15_ady6d"]
 [ext_resource type="PackedScene" uid="uid://lmsbs7oc7033" path="res://Sample Stage/stg_0100/GEO/STG0100_OS_05.fbx" id="16_uolu4"]
+[ext_resource type="PackedScene" uid="uid://dadida7kxmfdw" path="res://Sample Stage/stg_0100/GEO/STG0100_OS_07.fbx" id="17_kdh8c"]
 [ext_resource type="PackedScene" uid="uid://02rpne0vaot7" path="res://Sample Stage/stg_0100/GEO/STG0100_OS_06.fbx" id="17_mb5jn"]
 [ext_resource type="PackedScene" uid="uid://twakb70iovdj" path="res://Sample Stage/stg_0100/GEO/STG0100_OS_08.fbx" id="19_p2bus"]
 [ext_resource type="PackedScene" uid="uid://dtotlo051niji" path="res://Sample Stage/stg_0100/GEO/STG0100_OS_09.fbx" id="20_fhegg"]
 [ext_resource type="PackedScene" uid="uid://8gh103g4hbw5" path="res://Sample Stage/stg_0100/GEO/STG0100_OS_10.fbx" id="21_kpccd"]
 [ext_resource type="PackedScene" uid="uid://ddykbmi8v2w4o" path="res://Sample Stage/stg_0100/GEO/STG0100_OS_11.fbx" id="22_wknc7"]
 [ext_resource type="PackedScene" uid="uid://cj7pbbcxpfjl" path="res://Sample Stage/stg_0100/GEO/STG0100_OS_12.fbx" id="23_hwlk8"]
+[ext_resource type="PackedScene" uid="uid://cs0wdoi64axi0" path="res://Sample Stage/stg_0100/GEO/STG0100_OS_14.fbx" id="24_5mt1f"]
 [ext_resource type="PackedScene" uid="uid://ccgkmiexnt6co" path="res://Sample Stage/stg_0100/GEO/STG0100_OS_13.fbx" id="24_7vqqi"]
 [ext_resource type="PackedScene" uid="uid://dkmdx121pxciw" path="res://Sample Stage/stg_0100/GEO/STG0100_OS_15.fbx" id="26_fh4cd"]
 [ext_resource type="PackedScene" uid="uid://c0f54hq56xicq" path="res://Sample Stage/stg_0100/GEO/STG0100_OS_16.fbx" id="27_us3dx"]
@@ -47,10 +49,15 @@ size = Vector3(0.25, 0.25, 0.25)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 108.628, 38383.1, 67.5123)
 mesh = SubResource("BoxMesh_0q1pg")
 
-[node name="Camera3D" type="Camera3D" parent="."]
+[node name="CharacterBody3D" type="CharacterBody3D" parent="."]
+motion_mode = 1
+script = ExtResource("1_tivej")
+
+[node name="head" type="Node3D" parent="CharacterBody3D"]
+
+[node name="Camera3D" type="Camera3D" parent="CharacterBody3D/head"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.64684)
 current = true
-script = ExtResource("1_c4pcc")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = ExtResource("1_326yb")
@@ -111,7 +118,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0185263, -0.0298305, 0.016
 
 [node name="STG0100_OS_06" parent="0100 GEO" instance=ExtResource("17_mb5jn")]
 
-[node name="STG0100_OS_07" parent="0100 GEO" instance=ExtResource("26_fh4cd")]
+[node name="STG0100_OS_07" parent="0100 GEO" instance=ExtResource("17_kdh8c")]
 
 [node name="STG0100_OS_08" parent="0100 GEO" instance=ExtResource("19_p2bus")]
 
@@ -125,7 +132,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0185263, -0.0298305, 0.016
 
 [node name="STG0100_OS_13" parent="0100 GEO" instance=ExtResource("24_7vqqi")]
 
-[node name="STG0100_OS_14" parent="0100 GEO" instance=ExtResource("35_mal0y")]
+[node name="STG0100_OS_14" parent="0100 GEO" instance=ExtResource("24_5mt1f")]
 
 [node name="STG0100_OS_15" parent="0100 GEO" instance=ExtResource("26_fh4cd")]
 
@@ -149,5 +156,5 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0185263, -0.0298305, 0.016
 
 [node name="STG0100_O_19" parent="0100 GEO" instance=ExtResource("36_bb6w3")]
 
-[node name="=== GameObject Importer (DOESN\'T YET SAVE TO SCENE; RUNTIME ONLY ===" type="Node3D" parent="."]
+[node name="=== GameObject Importer (VIEW UNDER \'REMOTE\' ONLY AT RUNTIME) ===" type="Node3D" parent="."]
 script = ExtResource("38_ci12m")

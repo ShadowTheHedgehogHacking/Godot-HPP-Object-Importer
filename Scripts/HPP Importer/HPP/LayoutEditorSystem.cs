@@ -21,9 +21,7 @@ namespace HeroesPowerPlant.LayoutEditor
 		public bool autoUnkBytes;
 
 		public static void SetupLayoutEditorSystem(){
-			string filePath = "C:/Users/user/Documents/godot/projects/Godot-HPP-Obj-Importer/Scripts/HPP Importer/ShadowObjectList.ini";
-				// "res://Scripts/HPP Importer/ShadowObjectList.ini";
-				// I have no idea why RES is also adding itself to the path instead of getting the project path, so hardcoding for now...
+			string filePath = ProjectSettings.GlobalizePath("res://Scripts/HPP Importer/ShadowObjectList.ini");
 			shadowObjectEntries = ReadObjectListData(filePath);
 		}
 
