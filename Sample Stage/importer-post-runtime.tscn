@@ -1,0 +1,2029 @@
+[gd_scene load_steps=4 format=3 uid="uid://plb0544gamgo"]
+
+[ext_resource type="Script" path="res://Scripts/ShadowLayoutImporterGodot.cs" id="1_h0udo"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0m6x7"]
+albedo_color = Color(0.258824, 0.654902, 0.360784, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_0q1pg"]
+material = SubResource("StandardMaterial3D_0m6x7")
+size = Vector3(0.25, 0.25, 0.25)
+
+[node name="=== GameObject POST RUN Saved As Scene Under Remote Tab ===)" type="Node3D"]
+script = ExtResource("1_h0udo")
+
+[node name="(0) Rings #0" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.20331, -2.032)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Dash Ramp #1" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.27951, -10.16)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Dash Ramp #2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.397, -113.77, -39.624)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.42848, -23.6307, -32.3455)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0600923, -54.1993, -34.7569)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Trigger #5" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -36.703, -30.48)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Destructable1 #6" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.42899, -120.142, -64.516)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(101) Falling Building #7" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.54001, -121.767, -50.1494)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #8" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.57009, -120.142, -64.4106)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #9" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.14432, -120.142, -66.7893)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(101) Giant Sky Laser #10" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8342, -121.666, -48.4537)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #11" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.69514, -123.725, -42.0621)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #12" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.42952, -2.38111, -9.57693)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #13" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.57774, -2.38111, -4.05297)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #14" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.57774, -2.38111, -4.05297)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #15" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.48202, -14.855, -8.16418)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #16" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.87214, -16.2139, -17.4211)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #17" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6585, -51.1953, -34.496)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #18" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.02848, -46.8187, -36.1837)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Destructable1 #19" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.04801, -50.8, -33.528)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #20" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.75561, -50.7636, -33.333)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Dash Ramp #21" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.381, -113.77, -39.624)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Dash Ramp #22" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.635, -113.77, -39.624)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Dash Ramp #23" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.651, -113.77, -39.624)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(108) Destructable1 #24" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.683, -121.183, -78.3844)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(108) Giant Sky Laser #25" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.52109, -121.184, -77.8907)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #26" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -55.0921, -128.426, -101.905)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #27" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.402, -132.359, -37.3759)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Soldier #28" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.7125, -127.244, -107.983)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #29" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.8234, -127.244, -108.196)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #30" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.4344, -127.244, -106.483)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #31" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.45282, 4.45882, -36.4913)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Wood Box #32" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.448, -127.244, -108.712)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #33" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.2859, -127.244, -108.597)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(101) Giant Sky Laser #34" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.60383, -121.666, -47.1586)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(109) Destructable1 #35" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.683, -121.183, -82.4484)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(109) Giant Sky Laser #36" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.67003, -121.184, -84.2088)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #37" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.1211, -131.018, -108.982)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Wing #38" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.2136, -126.851, -107.986)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #39" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.9842, -127.244, -108.204)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #40" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -52.7812, -128.603, -101.93)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(103) Giant Sky Laser #41" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -118.168, -132.359, -38.9365)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #42" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.94111, -120.142, -62.8028)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(102) Falling Building #43" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.763, -123.165, -91.186)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #44" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -96.2322, -129.012, -96.5245)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(102) Giant Sky Laser #45" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.59645, -123.444, -92.1012)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(102) Giant Sky Laser #46" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.81868, -123.444, -91.6932)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Dash Panel #47" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.38111, 6.604)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #48" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39.0422, -127.231, -98.375)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #49" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -43.1062, -127.231, -98.375)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Checkpoint #50" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -105.664, -144.247, 21.336)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Trigger #51" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.142914, -7.46111, -1.46278)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(101) Giant Sky Laser #52" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.58233, -118.506, -48.2083)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(102) Giant Sky Laser #53" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.76015, -123.742, -89.6404)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #54" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -42.8715, -128.605, -109.432)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #55" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -51.5841, -128.603, -101.571)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #56" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -61.7308, -128.603, -103.232)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Metal Box #57" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.307, -133.883, -48.4886)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #58" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.263, -132.359, -46.7552)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Metal Box #59" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -115.901, -133.883, -48.9162)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Soldier #60" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -117.101, -132.359, -40.2337)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #61" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.342, -132.359, -41.2007)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #62" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.84, -132.359, -39.9433)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Checkpoint #63" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -117.348, -133.883, -50.546)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #64" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -118.567, -132.359, -45.9824)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #65" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -119.225, -132.359, -45.4698)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #66" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.801, -133.883, -47.9605)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Soldier #67" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -115.665, -128.802, -21.5655)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Wide Spring #68" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -117.348, -133.883, -46.214)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Soldier #69" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.552845, -120.166, -67.5409)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #70" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.29373, -120.142, -68.8012)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #71" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.99969, -124.531, -115.163)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #72" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.846, -128.802, -21.616)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #73" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.1016, -120.014, -65.8927)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #74" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.399, -127.244, -108.291)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(10) Trigger #75" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.381, -132.976, -70.3413)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #76" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.6542, -127.244, -108.796)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #77" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.4374, -127.244, -103.832)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #78" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -51.7577, -128.603, -101.015)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #79" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -114.833, -133.885, -83.5536)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #80" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -65.7083, -128.603, -99.0095)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #81" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -38.6386, -127.244, -99.1846)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #82" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.6456, -127.244, -99.6949)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(104) Falling Building #83" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -98.298, -128.524, -105.918)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #84" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -44.1701, -128.426, -102.692)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(3) Locked Case #85" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.1996, -130.996, -108.204)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #86" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.02715, -18.3658, -35.8092)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #87" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.34715, -23.8877, -33.5729)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #88" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.62653, -76.7015, -36.057)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #89" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.226756, -81.7459, -36.1529)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #90" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.805781, -88.7079, -31.36)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #91" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.45446, -104.167, -31.938)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #92" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.39349, -109.106, -34.7897)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Soldier #93" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.9132, -127.244, -103.358)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Metal Box #94" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.205, -132.359, -45.3222)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Metal Box #95" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -115.951, -132.359, -48.006)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #96" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.713, -132.359, -43.3204)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #97" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -118.364, -132.359, -43.3204)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Warrior #98" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.498, -132.359, -44.3549)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(64) Secret Key #99" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -117.544, -126.109, -17.904)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Beetle #100" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -117.264, -131.699, -39.3071)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #101" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -118.364, -132.359, -41.2812)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #102" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.962, -131.022, -108.983)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #103" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -94.5842, -128.859, -94.9574)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Warrior #104" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.616, -133.885, -80.1558)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Spring #105" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -117.56, -131.215, -24.3017)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #106" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -117.351, -133.885, -84.9737)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #107" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -114.911, -133.885, -86.9976)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #108" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -115.338, -133.885, -89.243)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #109" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -115.471, -133.885, -80.6029)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Warrior #110" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.456, -133.885, -74.9823)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Wing #111" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -115.24, -133.192, -84.3003)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Wing #112" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -115.906, -133.334, -75.166)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Wing #113" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -117.316, -133.187, -75.4368)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #114" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.709, -133.885, -77.0159)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(10) Trigger #115" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.624, -129.295, -30.3973)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Spring #116" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -118.665, -137.057, -14.3412)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(106) Giant Sky Laser #117" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -119.233, -131.342, -28.622)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #118" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -118.946, -131.342, -31.6249)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #119" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.787, -131.342, -31.6249)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Checkpoint #120" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.101588, -120.167, -63.8273)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Soldier #121" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -115.487, -128.802, -22.1645)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #122" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.252, -137.18, -13.5538)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Unbreakable Box #123" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -118.364, -128.802, -21.3614)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #124" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -117.348, -128.802, -8.001)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #125" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -118.237, -128.802, -9.144)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #126" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.459, -128.802, -9.1694)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Brown Cocoon #127" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -119.395, -128.624, -9.62966)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #128" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.216, -128.802, -11.3353)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #129" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.814, -128.802, -6.84606)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Wing #130" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.555, -127.832, -7.53222)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Warrior #131" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.944, -128.802, -8.21919)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Wing #132" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -118.193, -128.002, -8.14766)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #133" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -118.296, -128.802, -10.6331)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #134" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -117.522, -137.18, -13.5538)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(13) Locked Case #135" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -118.665, -137.18, -14.2904)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #136" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00542069, -107.017, -33.745)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #137" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -114.62, -137.434, -15.357)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #138" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -118.284, -133.883, -49.2322)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #139" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.459, -137.031, -16.0528)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Spring #140" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -118.666, -134.338, -13.261)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Spring #141" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -119.674, -133.152, -15.118)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #142" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -117.221, -137.031, -16.0528)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #143" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -115.697, -137.031, -16.0528)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Dash Ramp #144" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -117.856, -128.802, -5.37334)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Dash Ramp #145" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.84, -128.802, -5.37334)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #146" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -118.284, -136.093, 2.77247)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #147" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -113.818, -127.466, 7.79218)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #148" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -114.75, -127.466, 7.30802)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #149" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -115.693, -138.022, 8.69359)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #150" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -115.916, -139.215, 13.1007)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #151" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -117.758, -138.025, 11.0621)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #152" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -115.682, -138.022, 7.98772)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #153" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -106.757, -148.669, 13.1691)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #154" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -106.516, -144.272, 24.5688)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #155" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -107.672, -144.272, 20.1893)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #156" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -103.949, -144.246, 22.1246)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #157" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -113.069, -139.006, 16.7083)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #158" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -111.055, -138.43, 18.7195)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Beetle #159" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -112.968, -138.458, 16.154)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Beetle #160" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -113.795, -138.219, 14.0033)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #161" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -110.758, -141.771, 14.2039)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(60) Secret Key #162" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -110.27, -138.305, 18.7813)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #163" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -112.472, -139.022, 16.3412)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #164" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -108.601, -144.272, 20.803)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #165" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.733, -144.458, 21.7109)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #166" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.127, -123.59, -86.4505)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #167" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.74457, -23.0671, -34.9156)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #168" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.74457, -17.9871, -32.655)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #169" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.950574, -20.0191, -29.607)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #170" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.08142, -20.0191, -29.607)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #171" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.888994, -48.4671, -37.227)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #172" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.143, -48.4671, -37.227)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #173" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.19379, -71.0731, -36.465)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #174" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.838205, -76.1531, -36.465)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #175" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.14272, -31.4618, -30.0367)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #176" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.26999, -77.4231, -30.9532)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #177" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -115.062, -134.215, 7.49301)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #178" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -115.593, -138.005, 6.46889)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(1) Black Arms Warrior #179" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -119.14, -131.342, -25.7448)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #180" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -117.348, -133.731, -49.008)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(1) Black Arms Warrior #181" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.164, -131.342, -25.0143)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #182" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.352, -131.342, -27.9731)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #183" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -118.375, -131.342, -26.0465)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #184" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -118.718, -131.342, -28.9576)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(13) Ball Switch #185" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.252, -137.184, -13.5538)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Metal Box #186" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -119.377, -131.342, -30.1009)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Metal Box #187" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.519, -131.342, -30.0211)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #188" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -118.1, -128.802, -21.7983)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(104) Giant Sky Laser #189" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -97.6801, -128.524, -104.017)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #190" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.731, -133.885, -88.2281)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Dash Panel #191" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -65.6494, -128.605, -96.2932)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Warrior #192" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -69.3244, -127.997, -99.7253)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #193" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.094, -133.733, -84.0611)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(104) Giant Sky Laser #194" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.287, -128.524, -103.803)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Beetle #195" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -118.527, -131.872, -38.3628)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Soldier #196" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.2674, -131.022, -108.994)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #197" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.961091, -33.3187, -35.9998)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #198" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0131182, -34.6494, -30.113)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Wing #199" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.304119, -119.531, -70.8407)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #200" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.67436, -121.158, -71.9394)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #201" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.75849, -121.158, -73.9403)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #202" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.84553, -121.158, -73.2158)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #203" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.347014, -123.742, -93.9788)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #204" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.982937, -121.515, -76.3099)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #205" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0161076, -79.0913, -32.4709)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Wood Box #206" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.27839, -123.742, -93.1192)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Soldier #207" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7988, -123.717, -92.2379)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Warrior #208" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.192387, -123.742, -95.8152)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #209" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.766953, -123.742, -93.6814)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #210" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.6762, -129.331, -108.205)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Wing #211" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.21747, -122.98, -97.0771)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Wing #212" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.177279, -122.726, -96.8461)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #213" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.66039, -128.595, -109.909)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #214" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.02128, -126.913, -103.964)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #215" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.2803, -131.021, -107.866)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #216" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.3281, -131.021, -108.854)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Wing #217" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36.2859, -126.507, -105.615)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Wood Box #218" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.1, -133.885, -77.4346)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(1) Locked Case #219" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -117.56, -131.342, -24.3017)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Warrior #220" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -60.861, -128.605, -102.272)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #221" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -64.6007, -128.605, -101.811)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Warrior #222" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -74.9282, -127.22, -99.205)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Warrior #223" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -83.3552, -127.245, -95.6715)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #224" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -95.2428, -129.012, -96.5548)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #225" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -103.544, -128.834, -94.2011)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Metal Box #226" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -115.854, -133.885, -74.2484)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #227" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -72.6504, -127.245, -102.515)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #228" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -72.477, -127.245, -101.34)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #229" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -74.4548, -127.245, -101.433)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(3) Black Arms Warrior #230" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.2027, -131.021, -107.278)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Wing #231" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -56.2621, -127.993, -100.867)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #232" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -78.8313, -127.245, -95.1656)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #233" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -81.8894, -127.245, -96.4899)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #234" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -104.565, -129.012, -94.8618)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Wing #235" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -38.2546, -126.355, -106.05)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Wing #236" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -63.2955, -128.189, -100.985)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #237" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -42.9763, -128.604, -106.434)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Wing #238" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -83.7854, -126.571, -96.629)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(10) Trigger #239" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -117.401, -131.698, -50.5684)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #240" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -101.534, -146.018, 25.1068)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #241" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -101.737, -146.018, 25.31)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Soldier #242" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -46.0283, -128.603, -101.411)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Soldier #243" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -72.7896, -127.245, -100.646)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Soldier #244" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -103.707, -129.012, -96.6172)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Soldier #245" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.3755, -131.022, -107.118)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(62) Secret Key #246" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -106.083, -164.323, 247.98)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #247" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.143206, -126.143, -104.131)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(11) Locked Case #248" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.2664, -130.996, -108.204)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(11) Green Chaos Emerald #249" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.1996, -130.59, -108.204)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Trigger_ Talking #250" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -115.407, -133.864, -90.8439)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #251" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -104.778, -144.246, 23.0022)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Spring #252" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.2664, -130.869, -108.204)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Soldier #253" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.9409, -131.022, -106.93)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Trigger #254" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0719468, -0.658485, -3.36463)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Wood Box #255" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.8996, -127.244, -98.8059)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Wing #256" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.1558, -126.495, -101.276)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Wing #257" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.17353, -127.807, -108.158)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Wing #258" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -50.433, -126.14, -100.445)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #259" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.182, -126.262, -19.0709)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #260" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.182, -126.262, -16.5309)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Checkpoint #261" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -149.496, -153.55, 122.714)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Checkpoint #262" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -126.873, -153.22, 224.226)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(61) Secret Key #263" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -99.084, -144.144, 14.6137)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #264" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -99.084, -144.271, 14.6137)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #265" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -101.294, -144.271, 15.2127)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #266" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -99.3385, -144.271, 16.6605)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Falling Building #267" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -137.271, -162.622, 112.46)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Weapon Box #268" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -109.225, -144.247, 24.8573)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Dash Ramp #269" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -132.537, -153.674, 104.851)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Dash Ramp #270" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -131.851, -153.674, 105.537)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(105) Giant Sky Laser #271" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -138.355, -162.305, 108.161)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Dash Ramp #272" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -133.248, -153.674, 104.14)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Dash Ramp #273" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -120.355, -153.217, 230.139)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Dash Ramp #274" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -121.067, -153.217, 230.85)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(10) Trigger #275" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -104.208, -189.889, 248.161)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Trigger #276" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -104.208, -149.056, 248.161)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Dash Ramp #277" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -99.4841, -231.148, 252.175)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Dash Ramp #278" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -98.7729, -231.148, 251.463)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Dash Ramp #279" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -100.17, -231.148, 252.86)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Dash Ramp #280" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -100.856, -231.148, 253.546)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Checkpoint #281" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -73.406, -231.863, 277.52)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #282" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -69.9397, -231.824, 280.109)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(105) Giant Sky Laser #283" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -113.714, -154.298, 95.884)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #284" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -152.53, -153.55, 126.78)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #285" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -150.715, -153.397, 123.73)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #286" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -150.512, -153.397, 123.933)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #287" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -153.416, -153.55, 125.795)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(106) Falling Building #288" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -118.809, -131.342, -27.7855)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #289" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.1084, -150.493, 36.0639)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #290" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -90.4546, -150.493, 35.5961)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Overturnable Object #291" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -90.9504, -150.493, 45.3346)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Metal Box #292" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -90.4242, -150.493, 34.9586)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Beetle #293" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -89.7684, -149.54, 36.454)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Warrior #294" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -89.7754, -150.493, 47.4047)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #295" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -88.3248, -150.493, 47.79)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Wing #296" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -90.2365, -149.551, 46.8633)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #297" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -91.5465, -150.493, 43.5122)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #298" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -90.2774, -150.341, 50.1723)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #299" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -91.2028, -150.493, 51.2268)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #300" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.7861, -150.493, 62.5602)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #301" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -89.9159, -150.493, 59.69)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #302" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.7117, -147.833, 61.5223)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #303" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -90.9349, -150.493, 57.9367)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #304" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -96.2012, -150.493, 57.7533)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #305" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.7378, -150.493, 57.1564)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #306" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.4286, -150.493, 58.1687)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Soldier #307" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.1611, -150.493, 53.0771)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Metal Box #308" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -95.7809, -150.494, 55.1649)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Weapon Box #309" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -96.1538, -150.494, 54.5193)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Fire #310" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -95.3184, -150.493, 63.9167)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Soldier #311" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -95.6623, -150.494, 53.6466)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Fire #312" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -94.4955, -150.493, 63.7624)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Fire #313" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -93.0928, -150.493, 62.5791)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Fire #314" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -89.8121, -150.493, 59.1521)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Overturnable Object #315" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -108.795, -156.74, 71.5602)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Fire #316" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -97.3039, -150.493, 57.9765)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Soldier #317" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -107.566, -156.74, 71.139)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Soldier #318" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -106.879, -156.74, 74.6764)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Wing #319" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -105.027, -153.29, 67.658)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Wing #320" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -101.788, -153.29, 70.0644)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #321" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -111.972, -156.74, 75.1227)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #322" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -111.015, -156.74, 77.5133)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #323" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -112.185, -156.587, 76.9534)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Dash Panel #324" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -121.431, -156.74, 85.7812)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Dash Panel #325" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -120.999, -156.74, 86.213)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #326" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -131.294, -153.845, 106.372)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Fire #327" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -147.364, -153.55, 125.698)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #328" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -147.269, -153.55, 125.578)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #329" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -147.138, -153.55, 122.75)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Fire #330" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -148.359, -153.55, 126.527)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #331" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -127.096, -153.523, 99.3952)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Secret Door #332" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -152.4, -153.55, 122.428)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Vehicle #333" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -154.026, -153.55, 120.853)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #334" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -149.282, -153.55, 125.51)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #335" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -129.985, -154.208, 220.291)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #336" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -130.813, -154.208, 220.973)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #337" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -129.355, -154.208, 219.439)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #338" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -123.317, -153.068, 227.782)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #339" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -122.96, -153.216, 225.85)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Brown Cocoon #340" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -122.924, -153.216, 224.853)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Weapon Box #341" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -124.736, -153.218, 229.251)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Weapon Box #342" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -124.078, -153.218, 229.105)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #343" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -71.0979, -231.824, 280.907)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(104) Giant Sky Laser #344" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -103.408, -128.524, -103.051)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #345" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -169.621, -153.253, 143.233)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #346" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -164.38, -154.54, 139.279)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #347" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -161.171, -154.54, 139.374)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #348" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -160.833, -154.54, 142.369)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Soldier #349" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -160.013, -154.54, 140.68)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Dash Panel #350" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.38111, 5.08)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Soldier #351" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -161.783, -154.54, 142.759)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #352" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -166.624, -153.027, 148.664)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Warrior #353" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -170.421, -153.178, 144.753)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #354" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -172.934, -153.178, 147.384)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #355" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -171.177, -153.178, 142.88)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #356" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -170.777, -153.178, 146.438)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Warrior #357" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -172.36, -153.178, 145.163)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #358" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -173.99, -153.173, 156.007)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(107) Giant Sky Laser #359" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -173.566, -153.173, 154.711)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #360" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -182.088, -154.046, 165.031)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #361" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -182.287, -154.198, 163.846)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #362" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -180.354, -154.198, 163.451)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #363" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -179.697, -154.198, 171.498)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Wood Box #364" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -179.426, -154.201, 167.346)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Wood Box #365" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -179.984, -154.201, 166.706)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Wood Box #366" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -178.819, -154.201, 166.296)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Wood Box #367" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -179.984, -153.693, 166.706)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Soldier #368" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -179.749, -154.203, 169.774)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Brown Cocoon #369" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -176.443, -154.202, 171.129)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Brown Cocoon #370" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -177.16, -154.275, 175.791)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Brown Cocoon #371" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -176.621, -153.214, 171.129)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #372" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -176.271, -154.202, 172.729)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #373" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -176.064, -154.202, 175.314)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #374" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -172.535, -154.202, 176.376)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Warrior #375" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -174.666, -154.202, 175.072)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #376" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -166.301, -154.214, 182.096)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #377" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -172.251, -154.202, 178.665)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #378" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -163.223, -154.049, 178.382)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #379" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -160.781, -154.049, 180.805)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #380" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -165.946, -154.202, 178.264)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Warrior #381" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -167.584, -154.202, 180.389)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Warrior #382" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -162.192, -154.202, 180.365)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #383" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -152.349, -155.415, 189.246)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #384" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -143.123, -155.179, 207.335)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #385" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -140.122, -154.049, 210.335)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #386" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -143.328, -155.567, 199.267)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #387" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -143.918, -155.567, 197.467)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #388" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -144.755, -155.567, 195.497)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #389" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -142.235, -155.567, 199.619)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #390" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -150.961, -155.567, 189.291)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #391" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -144.765, -155.567, 202.273)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #392" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -133.4, -154.207, 215.388)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #393" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -160.167, -155.568, 190.584)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #394" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -159.743, -155.568, 187.384)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #395" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -155.465, -155.568, 190.194)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #396" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -168.669, -154.203, 182.246)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Wood Box #397" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -168.568, -154.203, 183.103)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Wood Box #398" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -159.756, -155.568, 188.369)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Beetle #399" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -166.961, -153.129, 183.099)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Wood Box #400" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -156.104, -155.568, 190.519)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Soldier #401" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -157.253, -155.568, 189.452)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Warrior #402" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -150.612, -155.568, 191.609)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Helicopter #403" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -151.587, -151.65, 196.221)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #404" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -151.683, -155.568, 188.407)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Warrior #405" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -146.7, -155.567, 194.393)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Warrior #406" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -142.754, -155.567, 198.127)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Warrior #407" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -133.673, -154.213, 210.055)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #408" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -145.603, -155.572, 200.633)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Wood Box #409" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -143.57, -155.567, 205.197)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Wood Box #410" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -143.596, -155.567, 204.099)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Soldier #411" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -144.302, -155.567, 205.025)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Soldier #412" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -136.871, -154.215, 214.904)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #413" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -134.65, -154.213, 213.329)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #414" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -137.636, -154.213, 210.844)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Wood Box #415" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -137.557, -154.211, 211.778)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #416" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -127.963, -154.207, 223.263)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #417" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -131.95, -154.201, 210.395)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Helicopter #418" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -112.535, -146.724, 241.559)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #419" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -100.711, -201.749, 245.11)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #420" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -90.584, -150.493, 47.4879)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #421" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -110.056, -156.74, 74.6325)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #422" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -106.934, -202.765, 251.587)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #423" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -105.791, -162.887, 251.841)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #424" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -107.315, -162.887, 250.317)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #425" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -106.785, -180.638, 245.46)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #426" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -105.29, -180.638, 243.958)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #427" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -108.275, -180.638, 246.955)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Helicopter #428" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.289, -195.766, 247.769)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Helicopter #429" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -104.039, -162.205, 248.118)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #430" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -103.608, -224.987, 248.518)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Rings #431" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -103.811, -224.987, 248.722)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #432" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -100.05, -142.769, 245.976)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #433" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -104.077, -152.377, 252.81)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #434" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -106.326, -162.798, 250.253)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #435" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -104.791, -180.943, 244.744)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #436" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -107.749, -180.943, 248.362)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #437" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -100.848, -198.98, 246.536)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #438" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -107.18, -200.215, 249.678)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #439" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.308, -195.863, 247.537)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #440" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.238, -225.533, 248.014)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #441" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -105.427, -221.7, 248.538)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #442" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -87.0045, -231.851, 266.646)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #443" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -81.1107, -231.851, 267.365)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #444" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -65.8652, -231.206, 288.564)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #445" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -62.3288, -230.489, 292.025)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #446" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -56.7187, -224.538, 283.835)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #447" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -56.3367, -224.538, 294.785)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #448" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -56.6082, -224.698, 288.275)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #449" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -80.284, -231.863, 270.57)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Soldier #450" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -79.5567, -231.865, 269.975)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Weapon Box #451" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -80.9481, -231.863, 272.283)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Unbreakable Box #452" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -78.3729, -231.863, 270.578)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #453" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -77.3476, -231.863, 274.943)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Beetle #454" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -78.4895, -230.776, 270.844)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Metal Box #455" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -81.497, -231.863, 271.716)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Roadblock #456" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -75.2904, -231.863, 275.592)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #457" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -75.4153, -231.863, 274.454)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Red Fruit #458" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -78.177, -231.863, 274.692)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Warrior #459" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -76.0161, -231.863, 275.113)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Wing #460" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -82.1953, -229.137, 269.899)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Black Arms Wing #461" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -82.1218, -228.817, 268.037)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #462" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -79.0406, -231.863, 273.233)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #463" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -162.197, -154.54, 136.418)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #464" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -154.687, -154.54, 130.443)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Giant Sky Laser #465" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -168.118, -153.181, 147.699)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #466" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -154.191, -155.57, 192.081)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #467" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -146.344, -155.57, 197.445)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #468" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -140.659, -155.567, 202.857)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(100) Giant Sky Laser #469" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -132.323, -154.204, 219.1)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Beetle #470" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -88.4758, -149.358, 38.4569)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(10) Trigger #471" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.113, -130.111, -36.5384)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Trigger #472" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -148.014, -152.593, 121.403)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Trigger #473" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -134.158, -152.534, 105.93)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Trigger #474" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -119.386, -151.13, 231.705)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Trigger #475" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -104.855, -145.963, 247.268)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Trigger #476" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -98.6442, -229.719, 253.657)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Trigger #477" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -85.2759, -230.766, 265.987)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Trigger #478" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -70.9702, -231.931, 279.855)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Trigger #479" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -173.137, -152.623, 154.793)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Trigger #480" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -129.973, -152.672, 100.707)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Trigger #481" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -123.212, -153.934, 90.0618)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Special Weapon Box #482" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -104.444, -156.74, 70.4701)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Destructable1 #483" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -121.053, -153.216, 221.771)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Weapon Box #484" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.1232, -127.244, -108.388)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Wood Box #485" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -182.032, -154.204, 170.03)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(63) Secret Key #486" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -127.973, -133.606, -76.1428)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Metal Box #487" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -106.855, -133.897, -75.1497)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Brown Cocoon #488" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -119.773, -128.165, -9.44478)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) GUN Beetle #489" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -104.27, -187.792, 248.665)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Fire #490" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.42328, -121.186, -84.7455)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Fire #491" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.85438, -121.186, -85.6332)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Energy Core #492" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -44.7876, -126.72, -98.8988)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Balloon #493" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -113.543, -143.485, 29.1753)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Wood Box #494" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -158.227, -154.54, 135.738)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(50) Trigger #495" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -116.252, -137.184, -13.1728)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Weapon #496" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -153.162, -153.55, 121.666)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Trigger #497" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -111.38, -141.2, 240.43)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(10) Trigger #498" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -102.262, -142.346, 17.9943)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(0) Trigger #499" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -109.701, -130.924, -14.4395)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(10) Trigger #500" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -114.178, -139.52, 29.8273)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(10) Trigger #501" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -127.373, -132.232, -34.4225)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(10) Trigger #502" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -148.034, -152.711, 142.208)
+mesh = SubResource("BoxMesh_0q1pg")
+
+[node name="(10) Trigger #503" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -161.117, -152.711, 119.981)
+mesh = SubResource("BoxMesh_0q1pg")

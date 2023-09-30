@@ -1,4 +1,4 @@
-[gd_scene load_steps=38 format=3 uid="uid://c844pkx71mn1i"]
+[gd_scene load_steps=39 format=3 uid="uid://c844pkx71mn1i"]
 
 [ext_resource type="Environment" uid="uid://3dhojwan21fh" path="res://Skybox/world_environment.tres" id="1_326yb"]
 [ext_resource type="PackedScene" uid="uid://bvtb08n4eviro" path="res://Sample Stage/stg_0100/GEO/STG0100_D_19.fbx" id="1_mfoi7"]
@@ -34,6 +34,7 @@
 [ext_resource type="PackedScene" uid="uid://dxyi6oxnh3wrt" path="res://Sample Stage/stg_0100/GEO/STG0100_O_04.fbx" id="34_tf5xj"]
 [ext_resource type="PackedScene" uid="uid://bguekovmlvlos" path="res://Sample Stage/stg_0100/GEO/STG0100_O_06.fbx" id="35_mal0y"]
 [ext_resource type="PackedScene" uid="uid://dva3nj1akgp33" path="res://Sample Stage/stg_0100/GEO/STG0100_O_19.fbx" id="36_bb6w3"]
+[ext_resource type="PackedScene" uid="uid://plb0544gamgo" path="res://Sample Stage/importer-post-runtime.tscn" id="36_d3cyf"]
 [ext_resource type="Script" path="res://Scripts/ShadowLayoutImporterGodot.cs" id="38_ci12m"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0m6x7"]
@@ -48,16 +49,19 @@ size = Vector3(0.25, 0.25, 0.25)
 [node name="Cubeus" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 108.628, 38383.1, 67.5123)
 mesh = SubResource("BoxMesh_0q1pg")
+metadata/_edit_lock_ = true
 
 [node name="CharacterBody3D" type="CharacterBody3D" parent="."]
 motion_mode = 1
 script = ExtResource("1_tivej")
+metadata/_edit_lock_ = true
 
 [node name="head" type="Node3D" parent="CharacterBody3D"]
+metadata/_edit_lock_ = true
 
 [node name="Camera3D" type="Camera3D" parent="CharacterBody3D/head"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.64684)
 current = true
+metadata/_edit_lock_ = true
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = ExtResource("1_326yb")
@@ -66,12 +70,15 @@ environment = ExtResource("1_326yb")
 transform = Transform3D(1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0.000284433, -0.0239916, 0.00858784)
 light_color = Color(0.509804, 0.392157, 0.392157, 1)
 light_energy = 3.0
+metadata/_edit_lock_ = true
 
 [node name="0100 GEO" type="Node3D" parent="."]
+metadata/_edit_lock_ = true
 
 [node name="SKYBOX (CHUNKED)" type="Node3D" parent="0100 GEO"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0185263, 0.0298305, -0.0160055)
 visible = false
+metadata/_edit_lock_ = true
 
 [node name="STG0100_D_01" parent="0100 GEO/SKYBOX (CHUNKED)" instance=ExtResource("1_mfoi7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0185263, -0.0298305, 0.0160055)
@@ -107,54 +114,84 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0185263, -0.0298305, 0.016
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0185263, -0.0298305, 0.0160055)
 
 [node name="STG0100_OS_01" parent="0100 GEO" instance=ExtResource("12_au4bq")]
+metadata/_edit_lock_ = true
 
 [node name="STG0100_OS_02" parent="0100 GEO" instance=ExtResource("13_h8p7w")]
+metadata/_edit_lock_ = true
 
 [node name="STG0100_OS_03" parent="0100 GEO" instance=ExtResource("14_emigl")]
+metadata/_edit_lock_ = true
 
 [node name="STG0100_OS_04" parent="0100 GEO" instance=ExtResource("15_ady6d")]
+metadata/_edit_lock_ = true
 
 [node name="STG0100_OS_05" parent="0100 GEO" instance=ExtResource("16_uolu4")]
+metadata/_edit_lock_ = true
 
 [node name="STG0100_OS_06" parent="0100 GEO" instance=ExtResource("17_mb5jn")]
+metadata/_edit_lock_ = true
 
 [node name="STG0100_OS_07" parent="0100 GEO" instance=ExtResource("17_kdh8c")]
+metadata/_edit_lock_ = true
 
 [node name="STG0100_OS_08" parent="0100 GEO" instance=ExtResource("19_p2bus")]
+metadata/_edit_lock_ = true
 
 [node name="STG0100_OS_09" parent="0100 GEO" instance=ExtResource("20_fhegg")]
+metadata/_edit_lock_ = true
 
 [node name="STG0100_OS_10" parent="0100 GEO" instance=ExtResource("21_kpccd")]
+metadata/_edit_lock_ = true
 
 [node name="STG0100_OS_11" parent="0100 GEO" instance=ExtResource("22_wknc7")]
+metadata/_edit_lock_ = true
 
 [node name="STG0100_OS_12" parent="0100 GEO" instance=ExtResource("23_hwlk8")]
+metadata/_edit_lock_ = true
 
 [node name="STG0100_OS_13" parent="0100 GEO" instance=ExtResource("24_7vqqi")]
+metadata/_edit_lock_ = true
 
 [node name="STG0100_OS_14" parent="0100 GEO" instance=ExtResource("24_5mt1f")]
+metadata/_edit_lock_ = true
 
 [node name="STG0100_OS_15" parent="0100 GEO" instance=ExtResource("26_fh4cd")]
+metadata/_edit_lock_ = true
 
 [node name="STG0100_OS_16" parent="0100 GEO" instance=ExtResource("27_us3dx")]
+metadata/_edit_lock_ = true
 
 [node name="STG0100_OS_17" parent="0100 GEO" instance=ExtResource("28_xigo3")]
+metadata/_edit_lock_ = true
 
 [node name="STG0100_OS_18" parent="0100 GEO" instance=ExtResource("29_nbc8t")]
+metadata/_edit_lock_ = true
 
 [node name="STG0100_OS_21" parent="0100 GEO" instance=ExtResource("30_fys2p")]
+metadata/_edit_lock_ = true
 
 [node name="STG0100_OS_22" parent="0100 GEO" instance=ExtResource("31_qsxps")]
+metadata/_edit_lock_ = true
 
 [node name="STG0100_O_01" parent="0100 GEO" instance=ExtResource("32_vmqa1")]
+metadata/_edit_lock_ = true
 
 [node name="STG0100_O_02" parent="0100 GEO" instance=ExtResource("33_ojxrn")]
+metadata/_edit_lock_ = true
 
 [node name="STG0100_O_04" parent="0100 GEO" instance=ExtResource("34_tf5xj")]
+metadata/_edit_lock_ = true
 
 [node name="STG0100_O_06" parent="0100 GEO" instance=ExtResource("35_mal0y")]
+metadata/_edit_lock_ = true
 
 [node name="STG0100_O_19" parent="0100 GEO" instance=ExtResource("36_bb6w3")]
+metadata/_edit_lock_ = true
 
 [node name="=== GameObject Importer (VIEW UNDER \'REMOTE\' ONLY AT RUNTIME) ===" type="Node3D" parent="."]
 script = ExtResource("38_ci12m")
+
+[node name="=== GameObject POST RUN Saved As Scene Under Remote Tab ===)" parent="." instance=ExtResource("36_d3cyf")]
+script = null
+
+[editable path="=== GameObject POST RUN Saved As Scene Under Remote Tab ===)"]
