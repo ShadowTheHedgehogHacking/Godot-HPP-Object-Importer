@@ -8,16 +8,16 @@ public partial class ShadowLayoutImporterGodot : Node3D
 		base._Ready();
 		string fileToImport = ProjectSettings.GlobalizePath("res://Sample Stage/stg0100_cmn.dat");
 
-		HeroesPowerPlant.LayoutEditor.LayoutEditorSystem.SetupLayoutEditorSystem(); // change this function to use Heroes's ini if you want Heroes objects
+		// ShadowSET.LayoutEditorSystem.SetupLayoutEditorSystem();
 
-		var list = HeroesPowerPlant.LayoutEditor.LayoutEditorFunctions.GetShadowLayout(fileToImport);
+		var list = ShadowSET.Layout.GetShadowLayout(fileToImport);
 		var godot_shadowth_scaling = 39.3701f;
 
 		var core = GetNode("/root/0100/Cubeus");
 		core = core as MeshInstance3D;
 		for (int i = 0; i < list.Count; i++) {
 			var cube = core.Duplicate();
-			((Node3D)cube).Position = new Vector3(list[i].Position.X / godot_shadowth_scaling, list[i].Position.Y / godot_shadowth_scaling, list[i].Position.Z / godot_shadowth_scaling);
+			((Node3D)cube).Position = new Vector3(list[i].PosX / godot_shadowth_scaling, list[i].PosY / godot_shadowth_scaling, list[i].PosZ / godot_shadowth_scaling);
 			cube.Name = "(" + list[i].Link + ") " + list[i].GetName + " #" + i;
 			AddChild(cube, true, InternalMode.Front);
 			cube.Owner = this;
